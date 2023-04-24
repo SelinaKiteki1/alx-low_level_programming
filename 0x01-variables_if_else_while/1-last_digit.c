@@ -6,7 +6,7 @@
  * main - Entry
  * Return: Always 0
  */
-imt main(void)
+int main(void)
 {
 	int n;
 	int a;
@@ -19,9 +19,9 @@ imt main(void)
 	{
 		printf("last digit of %d is%d and is greater than 5\n", n, a);
 	}
-	else if (a ==0)
+	else if (a == 0)
 	{
-		printf("last digit of %d is %d and is 0 \n", n, a);
+		printf("last digit of %d is %d and is 0\n", n, a);
 	}
 	else
 	{
