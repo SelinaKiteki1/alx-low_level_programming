@@ -6,7 +6,7 @@
  * main - Entry
  * Return: Always 0
  */
-imt main(void)
+int main(void)
 {       
         int n;
         int a;
