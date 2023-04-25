@@ -1,25 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
-* main - Entry point
-* Return: Always 0 (Success)
-*/
-
+ * main-program entry point.
+ * Return:0 if no errors, non zero if errors
+ */
 int main(void)
-
 {
-	char low, e, q;
+	char i;
 
-        e = 'e';
-        q = 'q';
-
-        for (low = 'a'; low <= 'z'; low++)
-        {
-        if (low != e && low != q)
-        putchar(low);
-        }
-        putchar('\n');
-        return (0);
+	for (i = 'z'; i >= 'a'; i--)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
